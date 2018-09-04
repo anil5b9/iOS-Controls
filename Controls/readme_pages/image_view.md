@@ -1,6 +1,6 @@
-Progress Bar
+Asynchronysed UIImageView
 ======================
 Name | Pod Code | Code | GIF
 --- | --- | --- | ---
-[KDCircularProgress](https://github.com/kaandedeoglu/KDCircularProgress) | pod 'KDCircularProgress' | SAMPLE CODE HERE |  <img src="/Controls/readme_assets/progressbar-image-1.gif" width="100%">
-[HGCircularSlider](https://github.com/HamzaGhazouani/HGCircularSlider/tree/master) | pod 'HGCircularSlider', '~> 2.0.0'| SAMPLE CODE HERE | <img src="/Controls/readme_assets/HGCircularSlider-image-1.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-2.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-3.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-4.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-5.gif" width="49%">
+[FaceAware](https://github.com/BeauNouvelle/FaceAware?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more) | pod 'FaceAware' | SAMPLE CODE HERE |  <img src="/Controls/readme_assets/FaceAware-image-1.jpg" width="100%">
+[Kingfisher](https://github.com/onevcat/Kingfisher) | pod 'Kingfisher' | SAMPLE CODE HERE | -----

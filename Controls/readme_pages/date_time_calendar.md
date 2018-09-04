@@ -1,6 +1,5 @@
-Progress Bar
+Date - Time Picker / Calendar
 ======================
 Name | Pod Code | Code | GIF
 --- | --- | --- | ---
-[KDCircularProgress](https://github.com/kaandedeoglu/KDCircularProgress) | pod 'KDCircularProgress' | SAMPLE CODE HERE |  <img src="/Controls/readme_assets/progressbar-image-1.gif" width="100%">
-[HGCircularSlider](https://github.com/HamzaGhazouani/HGCircularSlider/tree/master) | pod 'HGCircularSlider', '~> 2.0.0'| SAMPLE CODE HERE | <img src="/Controls/readme_assets/HGCircularSlider-image-1.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-2.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-3.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-4.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-5.gif" width="49%">
+[JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more) | pod 'JTAppleCalendar', '~> 7.0' | SAMPLE CODE HERE |  <img src="/Controls/readme_assets/JTAppleCalendar-image-1.gif" width="100%">

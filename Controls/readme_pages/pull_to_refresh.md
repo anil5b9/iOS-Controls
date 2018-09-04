@@ -1,6 +1,6 @@
-Progress Bar
+Pull To Refresh
 ======================
 Name | Pod Code | Code | GIF
 --- | --- | --- | ---
-[KDCircularProgress](https://github.com/kaandedeoglu/KDCircularProgress) | pod 'KDCircularProgress' | SAMPLE CODE HERE |  <img src="/Controls/readme_assets/progressbar-image-1.gif" width="100%">
-[HGCircularSlider](https://github.com/HamzaGhazouani/HGCircularSlider/tree/master) | pod 'HGCircularSlider', '~> 2.0.0'| SAMPLE CODE HERE | <img src="/Controls/readme_assets/HGCircularSlider-image-1.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-2.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-3.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-4.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-5.gif" width="49%">
+[PullToMakeSoup](https://github.com/Yalantis/PullToMakeSoup?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more) | pod 'PullToMakeSoup', '~> 2.0' | SAMPLE CODE HERE |  <img src="/Controls/readme_assets/PullToMakeSoup-image-1.gif" width="49%">
+[PullToBounce](https://github.com/entotsu/PullToBounce) |  pod 'PullToBounce' | SAMPLE CODE HERE | <img src="/Controls/readme_assets/PullToBounce-image-1.gif" width="49%">

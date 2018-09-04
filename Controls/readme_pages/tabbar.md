@@ -1,6 +1,6 @@
-Progress Bar
+Tab Bar
 ======================
 Name | Pod Code | Code | GIF
 --- | --- | --- | ---
-[KDCircularProgress](https://github.com/kaandedeoglu/KDCircularProgress) | pod 'KDCircularProgress' | SAMPLE CODE HERE |  <img src="/Controls/readme_assets/progressbar-image-1.gif" width="100%">
-[HGCircularSlider](https://github.com/HamzaGhazouani/HGCircularSlider/tree/master) | pod 'HGCircularSlider', '~> 2.0.0'| SAMPLE CODE HERE | <img src="/Controls/readme_assets/HGCircularSlider-image-1.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-2.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-3.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-4.gif" width="49%"> <img src="/Controls/readme_assets/HGCircularSlider-image-5.gif" width="49%">
+[Animated Tabbar](https://github.com/Ramotion/animated-tab-bar) | pod 'RAMAnimatedTabBarController' | SAMPLE CODE HERE |  <img src="/Controls/readme_assets/animated-tab-bar-image-1.gif" width="100%">
+
