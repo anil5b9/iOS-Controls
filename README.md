@@ -5,7 +5,7 @@
 
 List of iOS UI/UX Libraries
 ==================
-A curated list of awesome Android UI/UX libraries.
+A curated list of awesome iOS UI/UX libraries written in swift 4.0 and above.
 
 ## Index
 * [Progress Bar](Controls/readme_pages/progressbar.md)
