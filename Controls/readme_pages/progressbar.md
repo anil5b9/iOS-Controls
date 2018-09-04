@@ -1,8 +1,8 @@
-Material
+Progress Bar
 ======================
-Name | License | Demo
---- | --- | ---
-[MaterialDesignLibrary](https://github.com/navasmdc/MaterialDesignLibrary) | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0) |  <img src="/art/MaterialDesignLibrary.png" width="100%"> <img src="/art/MaterialDesignLibrary2.png" width="49%"> <img src="/art/MaterialDesignLibrary3.png" width="49%"> <img src="/art/MaterialDesignLibrary4.png" width="49%"> <img src="/art/MaterialDesignLibrary5.png" width="49%"> <img src="/art/MaterialDesignLibrary6.png" width="49%"> <img src="/art/MaterialDesignLibrary7.png" width="49%"> <img src="/art/MaterialDesignLibrary8.png" width="49%"> <img src="/art/MaterialDesignLibrary9.png" width="49%"> <img src="/art/MaterialDesignLibrary10.png" width="49%"> <img src="/art/MaterialDesignLibrary11.png" width="49%"> <img src="/art/MaterialDesignLibrary12.png" width="49%"> <img src="/art/MaterialDesignLibrary13.png" width="49%"> <img src="/art/MaterialDesignLibrary14.png" width="49%">
+Name | Pod Code | Code | GIF
+--- | --- | --- | ---
+[KDCircularProgress](https://github.com/kaandedeoglu/KDCircularProgress) | pod 'KDCircularProgress' | SAMPLE CODE HERE |  <img src="Controls/readme_assets/progressbar-image-1.gif" width="100%"> 
 [DrawerArrowDrawable](https://github.com/ChrisRenke/DrawerArrowDrawable) | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0) | ![](/art/DrawerArrowDrawable.gif)
 [MaterialTabs](https://github.com/neokree/MaterialTabs) | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0) | <img src="/art/MaterialTabs.png" width="49%"> <img src="/art/MaterialTabs2.png" width="49%"> <img src="/art/MaterialTabs3.jpeg" width="49%">
 [PagerSlidingTabStrip](https://github.com/jpardogo/PagerSlidingTabStrip) | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0) | <img src="/art/PagerSlidingTabStrip.gif" width="49%">
