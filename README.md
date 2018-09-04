@@ -10,7 +10,7 @@ List of iOS UI/UX Libraries
 A curated list of awesome Android UI/UX libraries.
 
 ## Index `(light-weight pages)`
-* [Material](pages/Material.md)
+* [Progress Bar](readme_pages/progressbar.md)
 * [Layout](pages/Layout.md)
 * [Button](pages/Button.md)
 * [List / Grid](pages/List-Grid.md)
