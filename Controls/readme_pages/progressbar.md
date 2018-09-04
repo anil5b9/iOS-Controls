@@ -2,7 +2,7 @@ Progress Bar
 ======================
 Name | Pod Code | Code | GIF
 --- | --- | --- | ---
-[KDCircularProgress](https://github.com/kaandedeoglu/KDCircularProgress) | pod 'KDCircularProgress' | SAMPLE CODE HERE |  <img src="Controls/readme_assets/progressbar-image-1.gif" width="100%"> 
+[KDCircularProgress](https://github.com/kaandedeoglu/KDCircularProgress) | pod 'KDCircularProgress' | SAMPLE CODE HERE |  <img src="/Controls/readme_assets/progressbar-image-1.gif" width="100%"> 
 [DrawerArrowDrawable](https://github.com/ChrisRenke/DrawerArrowDrawable) | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0) | ![](/art/DrawerArrowDrawable.gif)
 [MaterialTabs](https://github.com/neokree/MaterialTabs) | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0) | <img src="/art/MaterialTabs.png" width="49%"> <img src="/art/MaterialTabs2.png" width="49%"> <img src="/art/MaterialTabs3.jpeg" width="49%">
 [PagerSlidingTabStrip](https://github.com/jpardogo/PagerSlidingTabStrip) | [Apache License V2](https://www.apache.org/licenses/LICENSE-2.0) | <img src="/art/PagerSlidingTabStrip.gif" width="49%">
