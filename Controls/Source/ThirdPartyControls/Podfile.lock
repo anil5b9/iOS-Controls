@@ -1,0 +1,62 @@
+PODS:
+  - FaceAware (1.4.0)
+  - HGCircularSlider (2.0.0)
+  - JTAppleCalendar (7.1.5)
+  - KDCircularProgress (1.5.2)
+  - Kingfisher (4.9.0)
+  - MinimalTabBar (0.1.1)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+  - paper-onboarding (4.1.0)
+  - PullToMakeSoup (2.0):
+    - PullToRefresher (~> 2.0)
+  - PullToRefresher (2.0.2)
+  - RAMAnimatedTabBarController (3.5.0)
+  - SSSpinnerButton (1.1.0)
+
+DEPENDENCIES:
+  - FaceAware
+  - HGCircularSlider (~> 2.0.0)
+  - JTAppleCalendar (~> 7.0)
+  - KDCircularProgress
+  - Kingfisher
+  - MinimalTabBar
+  - NVActivityIndicatorView
+  - paper-onboarding
+  - PullToMakeSoup (~> 2.0)
+  - RAMAnimatedTabBarController
+  - SSSpinnerButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FaceAware
+    - HGCircularSlider
+    - JTAppleCalendar
+    - KDCircularProgress
+    - Kingfisher
+    - MinimalTabBar
+    - NVActivityIndicatorView
+    - paper-onboarding
+    - PullToMakeSoup
+    - PullToRefresher
+    - RAMAnimatedTabBarController
+    - SSSpinnerButton
+
+SPEC CHECKSUMS:
+  FaceAware: 94410295a219c4a397ce525eab0063d6b17258aa
+  HGCircularSlider: 92e2ee098c814709f455b8f46cd9008147f6a869
+  JTAppleCalendar: 2d4f974f9f3c8b4964d51ca1f6e004883c031fbe
+  KDCircularProgress: 12f677b2deb02409ab48c6cae1898d146b8ad549
+  Kingfisher: 64539b51826b778206daa6ed815d12653caa69dd
+  MinimalTabBar: 39891cc6b67fcd7ac491ca1049f0b0b94ea5e6f6
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  paper-onboarding: 344780cbb0bfc229cd1862f5b9bba446b23c5185
+  PullToMakeSoup: 384a57220e1c197220427494d5959dda73400435
+  PullToRefresher: 5e101a8c3523e67ee0291375ba932ef59e0853c2
+  RAMAnimatedTabBarController: 7e259e89b669c7bc833a6441c7d8fbfd6580f473
+  SSSpinnerButton: 6b8215a5e927d16f149f08929e314e4ec25926b2
+
+PODFILE CHECKSUM: 9d6a018a4c47e337a1f1ddc75e06a94520cfe0fb
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,15 @@
+
+[
+ {
+ "Title" : "CircularSliderVC",
+ "ScreenName":  "CircularSliderVc"
+ },
+ {
+ "Title" : "RangeCircularSlider",
+ "ScreenName":  "RangeCircularSliderVc"
+ },
+ {
+ "Title" : "MidPointCircularSlider",
+ "ScreenName":  "MidPointCircularSliderVc"
+ }
+ ]
