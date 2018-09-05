@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="TestRangeSelectionViewControllerCell" id="ehZ-1o-swk" customClass="TestRangeSelectionViewControllerCell" customModule="ThirdPartyControls" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="164"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="164"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wDl-Nw-k6N">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="164"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7r-No-naw">
+                        <rect key="frame" x="62" y="71" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="wDl-Nw-k6N" firstAttribute="top" secondItem="ehZ-1o-swk" secondAttribute="top" id="7K4-e9-g02"/>
+                <constraint firstAttribute="trailing" secondItem="wDl-Nw-k6N" secondAttribute="trailing" id="KJc-F9-HWR"/>
+                <constraint firstItem="y7r-No-naw" firstAttribute="centerY" secondItem="ehZ-1o-swk" secondAttribute="centerY" id="RPf-Qb-Cju"/>
+                <constraint firstItem="wDl-Nw-k6N" firstAttribute="leading" secondItem="ehZ-1o-swk" secondAttribute="leading" id="RaU-0r-kUR"/>
+                <constraint firstAttribute="bottom" secondItem="wDl-Nw-k6N" secondAttribute="bottom" id="tNW-hy-g5r"/>
+                <constraint firstItem="y7r-No-naw" firstAttribute="centerX" secondItem="ehZ-1o-swk" secondAttribute="centerX" id="vfv-7J-YLF"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="pi1-lZ-HVl"/>
+            <connections>
+                <outlet property="label" destination="y7r-No-naw" id="Gx6-0d-BrR"/>
+                <outlet property="selectedView" destination="wDl-Nw-k6N" id="eEZ-S6-gtq"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

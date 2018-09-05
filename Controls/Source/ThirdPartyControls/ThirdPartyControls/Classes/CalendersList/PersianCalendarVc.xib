@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalendarLayoutsDemonstrationVc" customModule="ThirdPartyControls" customModuleProvider="target">
+            <connections>
+                <outlet property="calendarView" destination="t0q-Ub-me2" id="stT-As-EAe"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LAU-PQ-E2z">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="t0q-Ub-me2" customClass="JTAppleCalendarView" customModule="JTAppleCalendar">
+                            <rect key="frame" x="8" y="64" width="359" height="350"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="350" id="OLW-SF-JfG"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cKw-Ir-Yfm">
+                                <size key="itemSize" width="128" height="100"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells/>
+                            <connections>
+                                <outlet property="ibCalendarDataSource" destination="LAU-PQ-E2z" id="ZzN-LJ-Y9V"/>
+                                <outlet property="ibCalendarDelegate" destination="LAU-PQ-E2z" id="0jt-Vr-eFO"/>
+                            </connections>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="t0q-Ub-me2" firstAttribute="top" secondItem="uv0-lN-BG3" secondAttribute="top" constant="44" id="6pB-N5-kti"/>
+                        <constraint firstItem="t0q-Ub-me2" firstAttribute="leading" secondItem="LAU-PQ-E2z" secondAttribute="leadingMargin" id="NEw-fF-H2a"/>
+                        <constraint firstAttribute="trailingMargin" secondItem="t0q-Ub-me2" secondAttribute="trailing" id="xkh-ak-3Rk"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="uv0-lN-BG3"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LAU-PQ-E2z" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1Qx-BH-D1Q"/>
+                <constraint firstItem="LAU-PQ-E2z" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="P9n-kw-g4b"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LAU-PQ-E2z" secondAttribute="trailing" id="Yu0-X7-fAU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="LAU-PQ-E2z" secondAttribute="bottom" id="rqb-6t-fy0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>
