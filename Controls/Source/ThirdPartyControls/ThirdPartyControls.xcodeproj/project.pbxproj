@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520B50A721412D0600F611C2 /* EmptyDataSetVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B50A521412D0600F611C2 /* EmptyDataSetVc.swift */; };
+		520B50A821412D0600F611C2 /* EmptyDataSetVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520B50A621412D0600F611C2 /* EmptyDataSetVc.xib */; };
+		520B50AC21412F9400F611C2 /* OriginalUsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B50AA21412F9400F611C2 /* OriginalUsageViewController.swift */; };
+		520B50AE214131DC00F611C2 /* applications.json in Resources */ = {isa = PBXBuildFile; fileRef = 520B50AD214131DC00F611C2 /* applications.json */; };
+		520B50B021413C8000F611C2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B50AF21413C8000F611C2 /* TestViewController.swift */; };
 		52147F05213E66C50097C27B /* PullToMakeSoupVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52147F03213E66C50097C27B /* PullToMakeSoupVc.swift */; };
 		52147F06213E66C50097C27B /* PullToMakeSoupVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52147F04213E66C50097C27B /* PullToMakeSoupVc.xib */; };
 		52A040FA213FC23400FAD96B /* TabScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A040F8213FC23400FAD96B /* TabScreenOne.swift */; };
@@ -86,6 +91,11 @@
 
 /* Begin PBXFileReference section */
 		27D288A2EAA6737FD6324280 /* Pods-ThirdPartyControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirdPartyControls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThirdPartyControls/Pods-ThirdPartyControls.debug.xcconfig"; sourceTree = "<group>"; };
+		520B50A521412D0600F611C2 /* EmptyDataSetVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataSetVc.swift; sourceTree = "<group>"; };
+		520B50A621412D0600F611C2 /* EmptyDataSetVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyDataSetVc.xib; sourceTree = "<group>"; };
+		520B50AA21412F9400F611C2 /* OriginalUsageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalUsageViewController.swift; sourceTree = "<group>"; };
+		520B50AD214131DC00F611C2 /* applications.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = applications.json; sourceTree = "<group>"; };
+		520B50AF21413C8000F611C2 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		52147F03213E66C50097C27B /* PullToMakeSoupVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToMakeSoupVc.swift; sourceTree = "<group>"; };
 		52147F04213E66C50097C27B /* PullToMakeSoupVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PullToMakeSoupVc.xib; sourceTree = "<group>"; };
 		52384D903672AF31645391AB /* Pods_ThirdPartyControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThirdPartyControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +188,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		520B50A421412CF200F611C2 /* EmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				520B50AF21413C8000F611C2 /* TestViewController.swift */,
+				520B50AA21412F9400F611C2 /* OriginalUsageViewController.swift */,
+				520B50A521412D0600F611C2 /* EmptyDataSetVc.swift */,
+				520B50A621412D0600F611C2 /* EmptyDataSetVc.xib */,
+			);
+			path = EmptyDataSet;
+			sourceTree = "<group>";
+		};
 		52147F02213E66B00097C27B /* PullToMakeSoup */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +274,7 @@
 		52C0897D2136857500D915E5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				520B50A421412CF200F611C2 /* EmptyDataSet */,
 				52A040FD2140090A00FAD96B /* PullToBounnce */,
 				52147F02213E66B00097C27B /* PullToMakeSoup */,
 				52C089E22136D3C300D915E5 /* PaperOnboarding */,
@@ -270,6 +292,7 @@
 		52C089822136876900D915E5 /* ControlsJSONList */ = {
 			isa = PBXGroup;
 			children = (
+				520B50AD214131DC00F611C2 /* applications.json */,
 				52C089BC2136A7C400D915E5 /* main.json */,
 				52C089832136876900D915E5 /* Activity Indicator.json */,
 				52C089842136876900D915E5 /* CalendarView.json */,
@@ -488,11 +511,13 @@
 				52C089DD2136CFB100D915E5 /* KingFisherVc.xib in Resources */,
 				52A4FA0D2136ED78000BC265 /* CalendarLayoutsDemonstrationVc.xib in Resources */,
 				52C089E12136D10F00D915E5 /* CollectionViewCel.xib in Resources */,
+				520B50AE214131DC00F611C2 /* applications.json in Resources */,
 				52C089EF2136D5A300D915E5 /* Nunito-Light.ttf in Resources */,
 				52C089A021369BBE00D915E5 /* RangeCircularSliderVc.xib in Resources */,
 				52C0898E2136876900D915E5 /* UITabbar.json in Resources */,
 				52C089762136846300D915E5 /* LaunchScreen.storyboard in Resources */,
 				52C089F12136D5A300D915E5 /* OpenSans-Regular.ttf in Resources */,
+				520B50A821412D0600F611C2 /* EmptyDataSetVc.xib in Resources */,
 				52C089E62136D3D200D915E5 /* PaperOnboardingVc.xib in Resources */,
 				52C0899C2136995500D915E5 /* MidPointCircularSliderVc.xib in Resources */,
 				52C0898B2136876900D915E5 /* controls.json in Resources */,
@@ -554,6 +579,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ThirdPartyControls/Pods-ThirdPartyControls-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EmptyDataSet-Swift/EmptyDataSet_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/FaceAware/FaceAware.framework",
 				"${BUILT_PRODUCTS_DIR}/HGCircularSlider/HGCircularSlider.framework",
 				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
@@ -569,6 +595,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmptyDataSet_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaceAware.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HGCircularSlider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
@@ -603,6 +630,7 @@
 				52C089CB2136C35D00D915E5 /* PersianCalendarVc.swift in Sources */,
 				52A0410E2140091C00FAD96B /* PullToBounnceVc.swift in Sources */,
 				52147F05213E66C50097C27B /* PullToMakeSoupVc.swift in Sources */,
+				520B50A721412D0600F611C2 /* EmptyDataSetVc.swift in Sources */,
 				52A4FA0F2136ED78000BC265 /* ResizingOrientaionVc.swift in Sources */,
 				52C089A321369D6A00D915E5 /* HGCircularSliderVc.swift in Sources */,
 				52A041092140090A00FAD96B /* NSTimerEx.swift in Sources */,
@@ -613,6 +641,7 @@
 				52A4FA082136ED78000BC265 /* PinkSectionHeaderView.swift in Sources */,
 				52C089E52136D3D200D915E5 /* PaperOnboardingVc.swift in Sources */,
 				52A0410A2140090A00FAD96B /* PullToBounceWrapper.swift in Sources */,
+				520B50B021413C8000F611C2 /* TestViewController.swift in Sources */,
 				52A041082140090A00FAD96B /* CGRectEx.swift in Sources */,
 				52C089F22136D5A300D915E5 /* Images.swift in Sources */,
 				52A4FA0B2136ED78000BC265 /* WhiteSectionHeaderView.swift in Sources */,
@@ -625,6 +654,7 @@
 				52C089802136859000D915E5 /* MainListVc.swift in Sources */,
 				52A041062140090A00FAD96B /* BallView.swift in Sources */,
 				52A4F9FF2136E9FA000BC265 /* CodeCellView.swift in Sources */,
+				520B50AC21412F9400F611C2 /* OriginalUsageViewController.swift in Sources */,
 				52A0411121400A2700FAD96B /* Colors.swift in Sources */,
 				52C089A721369EBC00D915E5 /* KDCircularProgressVc.swift in Sources */,
 				52C089F92136E2C000D915E5 /* TestRangeSelectionViewControllerCell.swift in Sources */,

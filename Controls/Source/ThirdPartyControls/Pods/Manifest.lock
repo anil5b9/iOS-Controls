@@ -1,4 +1,5 @@
 PODS:
+  - EmptyDataSet-Swift (4.0.5)
   - FaceAware (1.4.0)
   - HGCircularSlider (2.0.0)
   - JTAppleCalendar (7.1.5)
@@ -16,6 +17,7 @@ PODS:
   - SSSpinnerButton (1.1.0)
 
 DEPENDENCIES:
+  - EmptyDataSet-Swift (~> 4.0.5)
   - FaceAware
   - HGCircularSlider (~> 2.0.0)
   - JTAppleCalendar (~> 7.0)
@@ -30,6 +32,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - EmptyDataSet-Swift
     - FaceAware
     - HGCircularSlider
     - JTAppleCalendar
@@ -44,6 +47,7 @@ SPEC REPOS:
     - SSSpinnerButton
 
 SPEC CHECKSUMS:
+  EmptyDataSet-Swift: a25810f50c3adfaa3840aa33ae8b5ba12ac29279
   FaceAware: 94410295a219c4a397ce525eab0063d6b17258aa
   HGCircularSlider: 92e2ee098c814709f455b8f46cd9008147f6a869
   JTAppleCalendar: 2d4f974f9f3c8b4964d51ca1f6e004883c031fbe
@@ -57,6 +61,6 @@ SPEC CHECKSUMS:
   RAMAnimatedTabBarController: 7e259e89b669c7bc833a6441c7d8fbfd6580f473
   SSSpinnerButton: 6b8215a5e927d16f149f08929e314e4ec25926b2
 
-PODFILE CHECKSUM: 9d6a018a4c47e337a1f1ddc75e06a94520cfe0fb
+PODFILE CHECKSUM: 759665a4d0d8d8a520f9c56ea48d71cfa2ae8908
 
 COCOAPODS: 1.5.3
