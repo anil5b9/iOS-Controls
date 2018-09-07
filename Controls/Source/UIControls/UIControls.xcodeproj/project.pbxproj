@@ -16,15 +16,8 @@
 		52147F06213E66C50097C27B /* PullToMakeSoupVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52147F04213E66C50097C27B /* PullToMakeSoupVc.xib */; };
 		52A040FA213FC23400FAD96B /* TabScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A040F8213FC23400FAD96B /* TabScreenOne.swift */; };
 		52A040FB213FC23400FAD96B /* TabScreenOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A040F9213FC23400FAD96B /* TabScreenOne.xib */; };
-		52A041062140090A00FAD96B /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A040FF2140090A00FAD96B /* BallView.swift */; };
-		52A041072140090A00FAD96B /* BounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A041002140090A00FAD96B /* BounceView.swift */; };
-		52A041082140090A00FAD96B /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A041022140090A00FAD96B /* CGRectEx.swift */; };
-		52A041092140090A00FAD96B /* NSTimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A041032140090A00FAD96B /* NSTimerEx.swift */; };
-		52A0410A2140090A00FAD96B /* PullToBounceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A041042140090A00FAD96B /* PullToBounceWrapper.swift */; };
-		52A0410B2140090A00FAD96B /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A041052140090A00FAD96B /* WaveView.swift */; };
 		52A0410E2140091C00FAD96B /* PullToBounnceVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0410C2140091C00FAD96B /* PullToBounnceVc.swift */; };
 		52A0410F2140091C00FAD96B /* PullToBounnceVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A0410D2140091C00FAD96B /* PullToBounnceVc.xib */; };
-		52A0411121400A2700FAD96B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0411021400A2700FAD96B /* Colors.swift */; };
 		52A4F9FF2136E9FA000BC265 /* CodeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A4F9FE2136E9FA000BC265 /* CodeCellView.swift */; };
 		52A4FA082136ED78000BC265 /* PinkSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A4FA002136ED76000BC265 /* PinkSectionHeaderView.swift */; };
 		52A4FA092136ED78000BC265 /* PinkSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A4FA012136ED76000BC265 /* PinkSectionHeaderView.xib */; };
@@ -94,15 +87,8 @@
 		52147F04213E66C50097C27B /* PullToMakeSoupVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PullToMakeSoupVc.xib; sourceTree = "<group>"; };
 		52A040F8213FC23400FAD96B /* TabScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreenOne.swift; sourceTree = "<group>"; };
 		52A040F9213FC23400FAD96B /* TabScreenOne.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabScreenOne.xib; sourceTree = "<group>"; };
-		52A040FF2140090A00FAD96B /* BallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
-		52A041002140090A00FAD96B /* BounceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceView.swift; sourceTree = "<group>"; };
-		52A041022140090A00FAD96B /* CGRectEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectEx.swift; sourceTree = "<group>"; };
-		52A041032140090A00FAD96B /* NSTimerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimerEx.swift; sourceTree = "<group>"; };
-		52A041042140090A00FAD96B /* PullToBounceWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToBounceWrapper.swift; sourceTree = "<group>"; };
-		52A041052140090A00FAD96B /* WaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
 		52A0410C2140091C00FAD96B /* PullToBounnceVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToBounnceVc.swift; sourceTree = "<group>"; };
 		52A0410D2140091C00FAD96B /* PullToBounnceVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PullToBounnceVc.xib; sourceTree = "<group>"; };
-		52A0411021400A2700FAD96B /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		52A4F9FE2136E9FA000BC265 /* CodeCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeCellView.swift; sourceTree = "<group>"; };
 		52A4FA002136ED76000BC265 /* PinkSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkSectionHeaderView.swift; sourceTree = "<group>"; };
 		52A4FA012136ED76000BC265 /* PinkSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinkSectionHeaderView.xib; sourceTree = "<group>"; };
@@ -216,33 +202,10 @@
 		52A040FD2140090A00FAD96B /* PullToBounnce */ = {
 			isa = PBXGroup;
 			children = (
-				52A040FE2140090A00FAD96B /* Source */,
 				52A0410C2140091C00FAD96B /* PullToBounnceVc.swift */,
 				52A0410D2140091C00FAD96B /* PullToBounnceVc.xib */,
 			);
 			path = PullToBounnce;
-			sourceTree = "<group>";
-		};
-		52A040FE2140090A00FAD96B /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				52A0411021400A2700FAD96B /* Colors.swift */,
-				52A040FF2140090A00FAD96B /* BallView.swift */,
-				52A041002140090A00FAD96B /* BounceView.swift */,
-				52A041012140090A00FAD96B /* helper */,
-				52A041042140090A00FAD96B /* PullToBounceWrapper.swift */,
-				52A041052140090A00FAD96B /* WaveView.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		52A041012140090A00FAD96B /* helper */ = {
-			isa = PBXGroup;
-			children = (
-				52A041022140090A00FAD96B /* CGRectEx.swift */,
-				52A041032140090A00FAD96B /* NSTimerEx.swift */,
-			);
-			path = helper;
 			sourceTree = "<group>";
 		};
 		52C0895F2136846300D915E5 = {
@@ -563,6 +526,7 @@
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MinimalTabBar/MinimalTabBar.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PullToBounce/PullToBounce.framework",
 				"${BUILT_PRODUCTS_DIR}/PullToMakeSoup/PullToMakeSoup.framework",
 				"${BUILT_PRODUCTS_DIR}/PullToRefresher/PullToRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
@@ -579,6 +543,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MinimalTabBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PullToBounce.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PullToMakeSoup.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PullToRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
@@ -609,29 +574,22 @@
 				520B50A721412D0600F611C2 /* EmptyDataSetVc.swift in Sources */,
 				52A4FA0F2136ED78000BC265 /* ResizingOrientaionVc.swift in Sources */,
 				52C089A321369D6A00D915E5 /* HGCircularSliderVc.swift in Sources */,
-				52A041092140090A00FAD96B /* NSTimerEx.swift in Sources */,
 				52C089B52136A36F00D915E5 /* NVActivityIndicatorVc.swift in Sources */,
 				52C089D82136CCBB00D915E5 /* FaceAwareVc.swift in Sources */,
 				52C0896C2136846300D915E5 /* AppDelegate.swift in Sources */,
 				52C089972136960200D915E5 /* CircularSliderVc.swift in Sources */,
 				52A4FA082136ED78000BC265 /* PinkSectionHeaderView.swift in Sources */,
 				52C089E52136D3D200D915E5 /* PaperOnboardingVc.swift in Sources */,
-				52A0410A2140090A00FAD96B /* PullToBounceWrapper.swift in Sources */,
 				520B50B021413C8000F611C2 /* TestViewController.swift in Sources */,
-				52A041082140090A00FAD96B /* CGRectEx.swift in Sources */,
 				52C089F22136D5A300D915E5 /* Images.swift in Sources */,
 				52A4FA0B2136ED78000BC265 /* WhiteSectionHeaderView.swift in Sources */,
 				52C0899F21369BBE00D915E5 /* RangeCircularSliderVc.swift in Sources */,
-				52A0410B2140090A00FAD96B /* WaveView.swift in Sources */,
 				52C089C02136B63200D915E5 /* AnimatedTabbarVc.swift in Sources */,
 				52C089CF2136C4EA00D915E5 /* CellView.swift in Sources */,
-				52A041072140090A00FAD96B /* BounceView.swift in Sources */,
 				52C089C62136BDCF00D915E5 /* MinimalTabVc.swift in Sources */,
 				52C089802136859000D915E5 /* MainListVc.swift in Sources */,
-				52A041062140090A00FAD96B /* BallView.swift in Sources */,
 				52A4F9FF2136E9FA000BC265 /* CodeCellView.swift in Sources */,
 				520B50AC21412F9400F611C2 /* OriginalUsageViewController.swift in Sources */,
-				52A0411121400A2700FAD96B /* Colors.swift in Sources */,
 				52C089A721369EBC00D915E5 /* KDCircularProgressVc.swift in Sources */,
 				52C089F92136E2C000D915E5 /* TestRangeSelectionViewControllerCell.swift in Sources */,
 				52A040FA213FC23400FAD96B /* TabScreenOne.swift in Sources */,
