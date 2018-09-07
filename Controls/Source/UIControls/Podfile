@@ -16,6 +16,7 @@ pod 'KDCircularProgress'
   pod 'paper-onboarding'
   pod 'PullToMakeSoup', '~> 2.0'
   pod 'EmptyDataSet-Swift', '~> 4.0.5'
+  pod 'PullToBounce', :git => 'https://github.com/entotsu/PullToBounce.git'
 
   # Pods for UIControls
 

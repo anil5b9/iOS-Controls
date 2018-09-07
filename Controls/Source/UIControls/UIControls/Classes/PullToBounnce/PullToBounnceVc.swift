@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PullToBounce
 
 class PullToBounnceVc: UIViewController {
     var tblView: UITableView?
@@ -33,7 +34,9 @@ class PullToBounnceVc: UIViewController {
             self.view.backgroundColor = UIColor.customBlue
             
             bodyView.frame = self.view.frame
-            bodyView.frame.y += 20 + 44
+            var frameTmp = bodyView.frame
+            frameTmp.origin.y = bodyView.frame.origin.y + 20 + 44
+            bodyView.frame = frameTmp
             let tableView = UITableView(frame: self.view.frame, style: UITableViewStyle.plain)
             tblView = tableView
             tableView.delegate = self
@@ -73,7 +76,7 @@ class PullToBounnceVc: UIViewController {
         headerLine.frame = CGRect(x: 0, y: 0, width: 120, height: 8)
         headerLine.layer.cornerRadius = headerLine.frame.height/2
         headerLine.backgroundColor = UIColor.white.withAlphaComponent(0.8)
-        headerLine.center = CGPoint(x: headerView.frame.center.x, y: 20 + 44/2)
+        headerLine.center = CGPoint(x: headerView.center.x, y: 20 + 44/2)
         headerView.addSubview(headerLine)
     }
 }
@@ -96,3 +99,33 @@ extension PullToBounnceVc: UITableViewDelegate, UITableViewDataSource {
     
 }
 
+extension Timer {
+    class func schedule(delay: TimeInterval, handler: @escaping (CFRunLoopTimer?) -> Void) -> Timer {
+        let fireDate = delay + CFAbsoluteTimeGetCurrent()
+        let timer = CFRunLoopTimerCreateWithHandler(kCFAllocatorDefault, fireDate, 0, 0, 0, handler)
+        CFRunLoopAddTimer(CFRunLoopGetCurrent(), timer, CFRunLoopMode.commonModes)
+        return timer!
+    }
+    
+    class func schedule(repeatInterval interval: TimeInterval, handler: @escaping (CFRunLoopTimer?) -> Void) -> Timer {
+        let fireDate = interval + CFAbsoluteTimeGetCurrent()
+        let timer = CFRunLoopTimerCreateWithHandler(kCFAllocatorDefault, fireDate, interval, 0, 0, handler)
+        CFRunLoopAddTimer(CFRunLoopGetCurrent(), timer, CFRunLoopMode.commonModes)
+        return timer!
+    }
+}
+extension UIColor {
+    
+    class var customBlue:UIColor {
+        get {
+            return UIColor(red:0.421593, green: 0.657718, blue: 0.972549, alpha: 1)
+        }
+    }
+    
+    class var lightBlue:UIColor {
+        get {
+            return UIColor(red:0.700062, green: 0.817345, blue: 0.972549, alpha: 1)
+        }
+    }
+    
+}
