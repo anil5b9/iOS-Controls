@@ -1,7 +1,3 @@
-# HB Controls
-
-
-
 
 List of iOS UI/UX Libraries
 ==================
