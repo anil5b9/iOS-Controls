@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RangeCircularSliderVc" customModule="ThirdPartyControls" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RangeCircularSliderVc" customModule="UIControls" customModuleProvider="target">
             <connections>
                 <outlet property="lblMaxValue" destination="gN4-f0-qYH" id="5kg-bi-3ts"/>
                 <outlet property="lblMinValue" destination="aod-2d-IP2" id="TxS-iS-pQ6"/>
@@ -25,7 +25,7 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IsF-Py-zLF" customClass="RangeCircularSlider" customModule="HGCircularSlider">
                     <rect key="frame" x="27.5" y="173.5" width="320" height="320"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="320" id="ZYX-Qk-54L"/>
                         <constraint firstAttribute="height" constant="320" id="mUu-Tj-EUv"/>
@@ -75,7 +75,7 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="aod-2d-IP2" firstAttribute="top" secondItem="IsF-Py-zLF" secondAttribute="bottom" constant="25" id="07o-J0-bYE"/>
                 <constraint firstItem="IsF-Py-zLF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Msy-QU-RW2"/>

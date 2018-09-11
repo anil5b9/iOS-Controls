@@ -26,6 +26,7 @@ class TabScreenOne: UIViewController {
         if let strText = (self.tabBarItem as? RAMAnimatedTabBarItem)?.animation.classForCoder.description(), strText.components(separatedBy: ".").count > 0 {
             self.lblText.text = strText.components(separatedBy: ".")[1]
         }
+         (self.tabBarItem as? RAMAnimatedTabBarItem)?.playAnimation()
         
     }
     /*
