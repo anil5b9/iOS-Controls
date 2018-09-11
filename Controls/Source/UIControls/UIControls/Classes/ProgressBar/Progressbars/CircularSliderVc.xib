@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CircularSliderVc" customModule="ThirdPartyControls" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CircularSliderVc" customModule="UIControls" customModuleProvider="target">
             <connections>
                 <outlet property="circularSlider" destination="cRb-sL-F7W" id="pra-PG-BxU"/>
                 <outlet property="lblSliderValue" destination="Le9-ov-6Y2" id="pEc-KL-Hxg"/>
@@ -24,7 +24,7 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cRb-sL-F7W" customClass="CircularSlider" customModule="HGCircularSlider">
                     <rect key="frame" x="27.5" y="173.5" width="320" height="320"/>
-                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="320" id="GNu-2J-0kr"/>
                         <constraint firstAttribute="width" constant="320" id="pXH-op-5q7"/>
@@ -76,7 +76,7 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="cRb-sL-F7W" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ErL-mw-y4l"/>
                 <constraint firstItem="cRb-sL-F7W" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="XMC-8l-59z"/>

@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SSSpinnerButtonVc" customModule="ThirdPartyControls" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SSSpinnerButtonVc" customModule="UIControls" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -21,26 +21,31 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="qqQ-mL-9uM">
-                    <rect key="frame" x="30" y="100" width="315" height="320"/>
+                    <rect key="frame" x="30" y="100" width="315" height="420"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvB-rv-6ta" customClass="SSSpinnerButton" customModule="SSSpinnerButton">
-                            <rect key="frame" x="0.0" y="0.0" width="315" height="40"/>
+                            <rect key="frame" x="0.0" y="0.0" width="315" height="60"/>
                             <color key="backgroundColor" red="0.97647058819999999" green="0.58039215690000001" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="40" id="X0a-Lg-SzM"/>
+                                <constraint firstAttribute="height" constant="60" id="X0a-Lg-SzM"/>
                             </constraints>
                             <state key="normal" title="BallClipRotate">
                                 <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornrRadius">
+                                    <real key="value" value="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="btnAnimateClicked:" destination="-1" eventType="touchUpInside" id="8Rp-Bn-cdY"/>
                             </connections>
                         </button>
                         <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BeT-KP-id3" customClass="SSSpinnerButton" customModule="SSSpinnerButton">
-                            <rect key="frame" x="0.0" y="70" width="315" height="40"/>
+                            <rect key="frame" x="0.0" y="90" width="315" height="60"/>
                             <color key="backgroundColor" red="0.37647058820000001" green="0.90196078430000004" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="40" id="uAY-WD-C0g"/>
+                                <constraint firstAttribute="height" constant="60" id="uAY-WD-C0g"/>
                             </constraints>
                             <state key="normal" title="BallSpinFade">
                                 <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -50,10 +55,10 @@
                             </connections>
                         </button>
                         <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JxS-HF-cO6" customClass="SSSpinnerButton" customModule="SSSpinnerButton">
-                            <rect key="frame" x="0.0" y="140" width="315" height="40"/>
+                            <rect key="frame" x="0.0" y="180" width="315" height="60"/>
                             <color key="backgroundColor" red="0.62352941179999999" green="0.72941176470000002" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="40" id="6YO-Ci-hKK"/>
+                                <constraint firstAttribute="height" constant="60" id="6YO-Ci-hKK"/>
                             </constraints>
                             <state key="normal" title="LineSpinFade">
                                 <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -63,10 +68,10 @@
                             </connections>
                         </button>
                         <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUe-nQ-rQ5" customClass="SSSpinnerButton" customModule="SSSpinnerButton">
-                            <rect key="frame" x="0.0" y="210" width="315" height="40"/>
+                            <rect key="frame" x="0.0" y="270" width="315" height="60"/>
                             <color key="backgroundColor" red="1" green="0.7843137255" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="40" id="1KB-VQ-Sd1"/>
+                                <constraint firstAttribute="height" constant="60" id="1KB-VQ-Sd1"/>
                             </constraints>
                             <state key="normal" title="CircleStrokeSpin">
                                 <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -76,10 +81,10 @@
                             </connections>
                         </button>
                         <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Gf-LS-Ruv" customClass="SSSpinnerButton" customModule="SSSpinnerButton">
-                            <rect key="frame" x="0.0" y="280" width="315" height="40"/>
+                            <rect key="frame" x="0.0" y="360" width="315" height="60"/>
                             <color key="backgroundColor" red="0.84313725490000002" green="0.61176470589999998" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="40" id="lSd-Il-kUE"/>
+                                <constraint firstAttribute="height" constant="60" id="lSd-Il-kUE"/>
                             </constraints>
                             <state key="normal" title="BallRotateChase">
                                 <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

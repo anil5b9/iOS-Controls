@@ -13,6 +13,7 @@ class KDCircularProgressVc: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
          view.backgroundColor = UIColor(white: 0.22, alpha: 1)
+        animateProgressBar()
         // Do any additional setup after loading the view.
     }
 
@@ -31,6 +32,18 @@ class KDCircularProgressVc: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func animateProgressBar() {
+        progress.animate(fromAngle: 0, toAngle: 360, duration: 1) { completed in
+            if completed {
+                print("animation stopped, completed")
+//                self.animateProgressBar()
+            } else {
+                print("animation stopped, was interrupted")
+//                self.animateProgressBar()
+            }
+        }
+    }
     @IBAction func btnAnimate(_ sender: UIButton) {
         progress.animate(fromAngle: 0, toAngle: 360, duration: 1) { completed in
             if completed {

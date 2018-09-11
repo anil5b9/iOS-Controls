@@ -34,7 +34,7 @@ class SSSpinnerButtonVc: UIViewController {
     */
     @IBAction func btnAnimateClicked(_ sender: SSSpinnerButton) {
         let arr : [SpinnerType] = [.ballClipRotate,.ballSpinFade,.lineSpinFade,.circleStrokeSpin,.ballRotateChase]
-        sender.startAnimate(spinnerType: arr[sender.tag], spinnercolor: .white, spinnerSize: 1, complete: nil)
+        sender.startAnimate(spinnerType: arr[sender.tag], spinnercolor: .white, spinnerSize: 25, complete: nil)
         DispatchQueue.main.asyncAfter(wallDeadline: .now() + 2) {
             sender.stopAnimate(complete: {
                 
