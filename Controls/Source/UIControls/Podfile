@@ -15,7 +15,7 @@ target 'UIControls' do
   pod 'paper-onboarding'
   pod 'PullToMakeSoup',  :git => 'https://github.com/hb-coe/PullToMakeSoup.git'
   pod 'EmptyDataSet-Swift', '~> 4.0.5'
-  pod 'PullToBounce', :git => 'https://github.com/entotsu/PullToBounce.git'
+  pod 'PullToBounce', :git => 'https://github.com/hb-coe/PullToBounce.git'
 
   # Pods for UIControls
 

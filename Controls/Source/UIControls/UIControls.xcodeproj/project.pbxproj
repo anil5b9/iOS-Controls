@@ -15,6 +15,7 @@
 		520B50B021413C8000F611C2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B50AF21413C8000F611C2 /* TestViewController.swift */; };
 		52147F05213E66C50097C27B /* PullToMakeSoupVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52147F03213E66C50097C27B /* PullToMakeSoupVc.swift */; };
 		52147F06213E66C50097C27B /* PullToMakeSoupVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52147F04213E66C50097C27B /* PullToMakeSoupVc.xib */; };
+		522AF18E214806CE00C81881 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 522AF18D214806CD00C81881 /* countries.json */; };
 		52A040FA213FC23400FAD96B /* TabScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A040F8213FC23400FAD96B /* TabScreenOne.swift */; };
 		52A040FB213FC23400FAD96B /* TabScreenOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A040F9213FC23400FAD96B /* TabScreenOne.xib */; };
 		52A0410E2140091C00FAD96B /* PullToBounnceVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0410C2140091C00FAD96B /* PullToBounnceVc.swift */; };
@@ -82,6 +83,7 @@
 		520B50AF21413C8000F611C2 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		52147F03213E66C50097C27B /* PullToMakeSoupVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToMakeSoupVc.swift; sourceTree = "<group>"; };
 		52147F04213E66C50097C27B /* PullToMakeSoupVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PullToMakeSoupVc.xib; sourceTree = "<group>"; };
+		522AF18D214806CD00C81881 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
 		52A040F8213FC23400FAD96B /* TabScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreenOne.swift; sourceTree = "<group>"; };
 		52A040F9213FC23400FAD96B /* TabScreenOne.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabScreenOne.xib; sourceTree = "<group>"; };
 		52A0410C2140091C00FAD96B /* PullToBounnceVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToBounnceVc.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 		52C089822136876900D915E5 /* ControlsJSONList */ = {
 			isa = PBXGroup;
 			children = (
+				522AF18D214806CD00C81881 /* countries.json */,
 				520B50AD214131DC00F611C2 /* applications.json */,
 				52C089BC2136A7C400D915E5 /* main.json */,
 			);
@@ -479,6 +482,7 @@
 				52C089A821369EBC00D915E5 /* KDCircularProgressVc.xib in Resources */,
 				52C089F62136E20E00D915E5 /* RangeSelectionVc.xib in Resources */,
 				52C089982136960200D915E5 /* CircularSliderVc.xib in Resources */,
+				522AF18E214806CE00C81881 /* countries.json in Resources */,
 				52C089CC2136C35D00D915E5 /* PersianCalendarVc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -712,7 +716,7 @@
 			baseConfigurationReference = C2314A48729983E55395D990 /* Pods-UIControls.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6JB9XW3D3N;
 				INFOPLIST_FILE = UIControls/Info.plist;
@@ -720,8 +724,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = HiddenBrains.uiontrols;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5e3f7c4d-aeab-4461-b06e-4258d05f9ba4";
-				PROVISIONING_PROFILE_SPECIFIER = HB_APPS_AdHoc;
+				PROVISIONING_PROFILE = "46710618-664d-440e-a32e-0df58da69993";
+				PROVISIONING_PROFILE_SPECIFIER = "HBDevelopment Profile";
 				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = none;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -733,7 +737,7 @@
 			baseConfigurationReference = DF3D940B2A8124E2D0D25721 /* Pods-UIControls.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6JB9XW3D3N;
 				INFOPLIST_FILE = UIControls/Info.plist;
@@ -741,8 +745,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = HiddenBrains.uiontrols;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5e3f7c4d-aeab-4461-b06e-4258d05f9ba4";
-				PROVISIONING_PROFILE_SPECIFIER = HB_APPS_AdHoc;
+				PROVISIONING_PROFILE = "46710618-664d-440e-a32e-0df58da69993";
+				PROVISIONING_PROFILE_SPECIFIER = "HBDevelopment Profile";
 				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = none;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

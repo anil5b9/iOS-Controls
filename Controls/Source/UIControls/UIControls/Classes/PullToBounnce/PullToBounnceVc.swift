@@ -13,8 +13,11 @@ class PullToBounnceVc: UIViewController {
     var tblView: UITableView?
     let bodyView = UIView()
     var wrapper: PullToBounceWrapper?
+    var arrData = [[String : String]]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        initializeData()
+        tblView?.reloadData()
         // Do any additional setup after loading the view.
         
     }
@@ -27,7 +30,23 @@ class PullToBounnceVc: UIViewController {
         super.viewDidAppear(animated)
        
     }
-    
+    func initializeData() {
+        do {
+            if let file = Bundle.main.url(forResource: "countries", withExtension: "json") {
+                let data = try Data(contentsOf: file)
+                let json = try JSONSerialization.jsonObject(with: data, options: [])
+                if let object = json as? [[String: String]] {
+                    self.arrData = object
+                } else {
+                    print("JSON is invalid")
+                }
+            } else {
+                print("no file")
+            }
+        } catch {
+            print(error.localizedDescription)
+        }
+    }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         if tblView == nil {
@@ -82,7 +101,7 @@ class PullToBounnceVc: UIViewController {
 }
 extension PullToBounnceVc: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return arrData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -92,7 +111,7 @@ extension PullToBounnceVc: UITableViewDelegate, UITableViewDataSource {
         {
             cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
         }
-        cell?.textLabel?.text = "Row ---> \(indexPath.row)"
+        cell?.textLabel?.text = self.arrData[indexPath.row]["name"]
         return cell!
         
     }

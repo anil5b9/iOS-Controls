@@ -98,11 +98,11 @@ open class PullToBounceWrapper: UIView {
             if y < pullDist {
                 bounceView.frame.y = y
                 bounceView.wave(0)
-                scrollView?.alpha = (pullDist - y)/pullDist
+               // scrollView?.alpha = (pullDist - y)/pullDist
             }
             else if y < stopPos {
                 bounceView.wave(y - pullDist)
-                scrollView?.alpha = 0
+                scrollView?.alpha = 1
             }
             else if y > stopPos {
                 scrollView?.isScrollEnabled = false
@@ -111,7 +111,7 @@ open class PullToBounceWrapper: UIView {
                 bounceView.wave(stopPos - pullDist)
                 bounceView.didRelease(stopPos - pullDist)
                 self.didPullToRefresh?()
-                scrollView?.alpha = 0
+                scrollView?.alpha = 1
             }
         } else {
             bounceView.frame.y = 0
