@@ -287,7 +287,7 @@ class SoupAnimator: NSObject, RefreshViewAnimator {
                 
                 let animationGroup = CAAnimationGroup()
                 animationGroup.duration = 1;
-                animationGroup.repeatCount = FLT_MAX;
+                animationGroup.repeatCount = Float.greatestFiniteMagnitude;
                 
                 animationGroup.animations = [coverRotationAnimation, coverPositionAnimation];
                 

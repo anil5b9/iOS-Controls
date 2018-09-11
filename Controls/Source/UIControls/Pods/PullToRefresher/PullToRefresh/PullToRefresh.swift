@@ -95,7 +95,7 @@ open class PullToRefresh: NSObject {
     fileprivate var previousScrollViewOffset: CGPoint = CGPoint.zero
     
     override open func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        if ( keyPath == contentOffsetKeyPath && object as? UIScrollView == scrollView) {
+        if (context == &KVOContext && keyPath == contentOffsetKeyPath && object as? UIScrollView == scrollView) {
             var offset: CGFloat
             switch position {
             case .top:
@@ -123,11 +123,11 @@ open class PullToRefresh: NSObject {
                 }
             default: break
             }
-        } else if (keyPath == contentSizeKeyPath && object as? UIScrollView == scrollView) {
+        } else if (context == &KVOContext && keyPath == contentSizeKeyPath && object as? UIScrollView == scrollView) {
             if case .bottom = position {
                 refreshView.frame = CGRect(x: 0, y: scrollView!.contentSize.height, width: scrollView!.bounds.width, height: refreshView.bounds.height)
             }
-        } else if ( keyPath == contentInsetKeyPath && object as? UIScrollView == scrollView) {
+        } else if (context == &KVOContext && keyPath == contentInsetKeyPath && object as? UIScrollView == scrollView) {
             if self.state == .initial {
                 scrollViewDefaultInsets = scrollView!.contentInset
             }

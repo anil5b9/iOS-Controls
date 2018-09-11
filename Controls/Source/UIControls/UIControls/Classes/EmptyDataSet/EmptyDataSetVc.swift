@@ -96,8 +96,10 @@ class EmptyDataSetVc: UIViewController, UITableViewDelegate, UITableViewDataSour
         } else {
             let app = appsData[indexPath.row]
             var controller: UIViewController
-            controller = OriginalUsageViewController(app["display_name"] as? String ?? "")
-            navigationController?.pushViewController(controller, animated: true)
+            if let screenName = app["display_name"] {
+                controller = OriginalUsageViewController(screenName)
+                navigationController?.pushViewController(controller, animated: true)
+            }
         }
        
     }
