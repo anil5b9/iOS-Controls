@@ -50,10 +50,6 @@
            {
            "Title" : "Animated TabBar",
            "ScreenName":  "AnimatedTabbarVc"
-           },
-           {
-           "Title" : "MinimalTabBar",
-           "ScreenName":  "MinimalTabVc"
            }
            ]
 

@@ -1,5 +1,5 @@
 
-##PullToMakeSoup [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+## PullToMakeSoup [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Custom animated pull-to-refresh that can be easily added to UIScrollView
 
@@ -11,24 +11,25 @@ Inspired by [this project on dribble](https://dribbble.com/shots/2074667-Recipe-
 
 <img src="https://raw.githubusercontent.com/Yalantis/PullToMakeSoup/master/PullToMakeSoupDemo/Resouces/recipe-finder.gif" />
 
-##Requirements
+## Requirements
 - iOS 8.0+
-- Xcode 7
-- Swift 2
+- Xcode 8
+- Swift 3
+- Portrait orientation
 
-####[Carthage](https://github.com/Carthage/Carthage)
+#### [Carthage](https://github.com/Carthage/Carthage)
 ```
-github "Yalantis/PullToMakeSoup" "master"
+github "Yalantis/PullToMakeSoup" ~> 2.0
 ```
 
-##Installing with [CocoaPods](https://cocoapods.org)
+## Installing with [CocoaPods](https://cocoapods.org)
 
 ```ruby
 use_frameworks!
-pod 'PullToMakeSoup', '~> 1.2'
+pod 'PullToMakeSoup', '~> 2.0'
 ```
 
-##Usage
+## Usage
 
 At first, import PullToMakeSoup framework:
 
@@ -49,9 +50,9 @@ Add refresher to your UIScrollView subclass in 'viewDidAppear' method and provid
 
 override func viewDidAppear(animated: Bool) {
     super.viewDidAppear(animated)
-    tableView.addPullToRefresh(refresher, action: {
+    tableView.addPullToRefresh(refresher) {
         // action to be performed (pull data from some source)
-    })
+    }
 }
 
 ```
@@ -81,7 +82,7 @@ P.S. We’re going to publish more awesomeness wrapped in code and a tutorial on
 
 	The MIT License (MIT)
 
-	Copyright © 2015 Yalantis
+	Copyright © 2017 Yalantis
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal

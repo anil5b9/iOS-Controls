@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CB6443F5E3A06347A65C361 /* Pods_UIControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BEC1FD32DD8B7870AA2E84 /* Pods_UIControls.framework */; };
 		520B50A721412D0600F611C2 /* EmptyDataSetVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B50A521412D0600F611C2 /* EmptyDataSetVc.swift */; };
 		520B50A821412D0600F611C2 /* EmptyDataSetVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520B50A621412D0600F611C2 /* EmptyDataSetVc.xib */; };
 		520B50AC21412F9400F611C2 /* OriginalUsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B50AA21412F9400F611C2 /* OriginalUsageViewController.swift */; };
@@ -50,8 +51,6 @@
 		52C089C02136B63200D915E5 /* AnimatedTabbarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C089BE2136B63200D915E5 /* AnimatedTabbarVc.swift */; };
 		52C089C12136B63200D915E5 /* AnimatedTabbarVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C089BF2136B63200D915E5 /* AnimatedTabbarVc.xib */; };
 		52C089C32136BA8600D915E5 /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52C089C22136BA8600D915E5 /* ToolsAnimation.plist */; };
-		52C089C62136BDCF00D915E5 /* MinimalTabVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C089C42136BDCF00D915E5 /* MinimalTabVc.swift */; };
-		52C089C72136BDCF00D915E5 /* MinimalTabVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C089C52136BDCF00D915E5 /* MinimalTabVc.xib */; };
 		52C089CB2136C35D00D915E5 /* PersianCalendarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C089C92136C35D00D915E5 /* PersianCalendarVc.swift */; };
 		52C089CC2136C35D00D915E5 /* PersianCalendarVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C089CA2136C35D00D915E5 /* PersianCalendarVc.xib */; };
 		52C089CF2136C4EA00D915E5 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C089CD2136C4EA00D915E5 /* CellView.swift */; };
@@ -73,11 +72,9 @@
 		52C089F62136E20E00D915E5 /* RangeSelectionVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C089F42136E20E00D915E5 /* RangeSelectionVc.xib */; };
 		52C089F92136E2C000D915E5 /* TestRangeSelectionViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C089F72136E2C000D915E5 /* TestRangeSelectionViewControllerCell.swift */; };
 		52C089FA2136E2C000D915E5 /* TestRangeSelectionViewControllerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C089F82136E2C000D915E5 /* TestRangeSelectionViewControllerCell.xib */; };
-		6749697D8EB119B828DF421D /* Pods_UIControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6B28BD0BD1C0783C492309 /* Pods_UIControls.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2FC5EB552B731AF26920A565 /* Pods-UIControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIControls.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIControls/Pods-UIControls.release.xcconfig"; sourceTree = "<group>"; };
 		520B50A521412D0600F611C2 /* EmptyDataSetVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataSetVc.swift; sourceTree = "<group>"; };
 		520B50A621412D0600F611C2 /* EmptyDataSetVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyDataSetVc.xib; sourceTree = "<group>"; };
 		520B50AA21412F9400F611C2 /* OriginalUsageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalUsageViewController.swift; sourceTree = "<group>"; };
@@ -123,8 +120,6 @@
 		52C089BE2136B63200D915E5 /* AnimatedTabbarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabbarVc.swift; sourceTree = "<group>"; };
 		52C089BF2136B63200D915E5 /* AnimatedTabbarVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimatedTabbarVc.xib; sourceTree = "<group>"; };
 		52C089C22136BA8600D915E5 /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
-		52C089C42136BDCF00D915E5 /* MinimalTabVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalTabVc.swift; sourceTree = "<group>"; };
-		52C089C52136BDCF00D915E5 /* MinimalTabVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MinimalTabVc.xib; sourceTree = "<group>"; };
 		52C089C92136C35D00D915E5 /* PersianCalendarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersianCalendarVc.swift; sourceTree = "<group>"; };
 		52C089CA2136C35D00D915E5 /* PersianCalendarVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersianCalendarVc.xib; sourceTree = "<group>"; };
 		52C089CD2136C4EA00D915E5 /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
@@ -146,8 +141,9 @@
 		52C089F42136E20E00D915E5 /* RangeSelectionVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RangeSelectionVc.xib; sourceTree = "<group>"; };
 		52C089F72136E2C000D915E5 /* TestRangeSelectionViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRangeSelectionViewControllerCell.swift; sourceTree = "<group>"; };
 		52C089F82136E2C000D915E5 /* TestRangeSelectionViewControllerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestRangeSelectionViewControllerCell.xib; sourceTree = "<group>"; };
-		9C6B28BD0BD1C0783C492309 /* Pods_UIControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C48613F4EB637AADB3CA070B /* Pods-UIControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIControls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIControls/Pods-UIControls.debug.xcconfig"; sourceTree = "<group>"; };
+		B9BEC1FD32DD8B7870AA2E84 /* Pods_UIControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2314A48729983E55395D990 /* Pods-UIControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIControls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIControls/Pods-UIControls.debug.xcconfig"; sourceTree = "<group>"; };
+		DF3D940B2A8124E2D0D25721 /* Pods-UIControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIControls.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIControls/Pods-UIControls.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,28 +151,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6749697D8EB119B828DF421D /* Pods_UIControls.framework in Frameworks */,
+				1CB6443F5E3A06347A65C361 /* Pods_UIControls.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20ED7158F39F953222F6116B /* Frameworks */ = {
+		09CBFA4687CEBF9A3D8057BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9C6B28BD0BD1C0783C492309 /* Pods_UIControls.framework */,
+				B9BEC1FD32DD8B7870AA2E84 /* Pods_UIControls.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		374FAADEBCCA49A4DC341854 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C48613F4EB637AADB3CA070B /* Pods-UIControls.debug.xcconfig */,
-				2FC5EB552B731AF26920A565 /* Pods-UIControls.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		520B50A421412CF200F611C2 /* EmptyDataSet */ = {
@@ -213,8 +200,8 @@
 			children = (
 				52C0896A2136846300D915E5 /* UIControls */,
 				52C089692136846300D915E5 /* Products */,
-				374FAADEBCCA49A4DC341854 /* Pods */,
-				20ED7158F39F953222F6116B /* Frameworks */,
+				995E0EF25A610536CDEF1DC2 /* Pods */,
+				09CBFA4687CEBF9A3D8057BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -318,8 +305,6 @@
 				52C089BF2136B63200D915E5 /* AnimatedTabbarVc.xib */,
 				52A040F8213FC23400FAD96B /* TabScreenOne.swift */,
 				52A040F9213FC23400FAD96B /* TabScreenOne.xib */,
-				52C089C42136BDCF00D915E5 /* MinimalTabVc.swift */,
-				52C089C52136BDCF00D915E5 /* MinimalTabVc.xib */,
 			);
 			path = TabbarList;
 			sourceTree = "<group>";
@@ -391,6 +376,15 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		995E0EF25A610536CDEF1DC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2314A48729983E55395D990 /* Pods-UIControls.debug.xcconfig */,
+				DF3D940B2A8124E2D0D25721 /* Pods-UIControls.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -398,11 +392,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52C0897A2136846300D915E5 /* Build configuration list for PBXNativeTarget "UIControls" */;
 			buildPhases = (
-				4602D19F6B5EFEC92531218F /* [CP] Check Pods Manifest.lock */,
+				A878A8C1558C1B32C0FAD0BD /* [CP] Check Pods Manifest.lock */,
 				52C089642136846300D915E5 /* Sources */,
 				52C089652136846300D915E5 /* Frameworks */,
 				52C089662136846300D915E5 /* Resources */,
-				DCC2889DF0621DB77BC29204 /* [CP] Embed Pods Frameworks */,
+				5EB3E2A8AAC3D1323AC4329C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -481,7 +475,6 @@
 				52C089D92136CCBB00D915E5 /* FaceAwareVc.xib in Resources */,
 				52C089A421369D6A00D915E5 /* HGCircularSliderVc.xib in Resources */,
 				52C089732136846300D915E5 /* Assets.xcassets in Resources */,
-				52C089C72136BDCF00D915E5 /* MinimalTabVc.xib in Resources */,
 				52C089812136859000D915E5 /* MainListVc.xib in Resources */,
 				52C089A821369EBC00D915E5 /* KDCircularProgressVc.xib in Resources */,
 				52C089F62136E20E00D915E5 /* RangeSelectionVc.xib in Resources */,
@@ -493,25 +486,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4602D19F6B5EFEC92531218F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UIControls-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DCC2889DF0621DB77BC29204 /* [CP] Embed Pods Frameworks */ = {
+		5EB3E2A8AAC3D1323AC4329C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -524,7 +499,6 @@
 				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/KDCircularProgress/KDCircularProgress.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/MinimalTabBar/MinimalTabBar.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/PullToBounce/PullToBounce.framework",
 				"${BUILT_PRODUCTS_DIR}/PullToMakeSoup/PullToMakeSoup.framework",
@@ -541,7 +515,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCircularProgress.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MinimalTabBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PullToBounce.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PullToMakeSoup.framework",
@@ -553,6 +526,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIControls/Pods-UIControls-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A878A8C1558C1B32C0FAD0BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIControls-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -586,7 +577,6 @@
 				52C0899F21369BBE00D915E5 /* RangeCircularSliderVc.swift in Sources */,
 				52C089C02136B63200D915E5 /* AnimatedTabbarVc.swift in Sources */,
 				52C089CF2136C4EA00D915E5 /* CellView.swift in Sources */,
-				52C089C62136BDCF00D915E5 /* MinimalTabVc.swift in Sources */,
 				52C089802136859000D915E5 /* MainListVc.swift in Sources */,
 				52A4F9FF2136E9FA000BC265 /* CodeCellView.swift in Sources */,
 				520B50AC21412F9400F611C2 /* OriginalUsageViewController.swift in Sources */,
@@ -719,7 +709,7 @@
 		};
 		52C0897B2136846300D915E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C48613F4EB637AADB3CA070B /* Pods-UIControls.debug.xcconfig */;
+			baseConfigurationReference = C2314A48729983E55395D990 /* Pods-UIControls.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -740,7 +730,7 @@
 		};
 		52C0897C2136846300D915E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FC5EB552B731AF26920A565 /* Pods-UIControls.release.xcconfig */;
+			baseConfigurationReference = DF3D940B2A8124E2D0D25721 /* Pods-UIControls.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
