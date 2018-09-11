@@ -110,7 +110,7 @@ class OriginalUsageViewController: UITableViewController, EmptyDataSetSource, Em
     }
     
     func emptyDataSetShouldAllowTouch(_ scrollView: UIScrollView) -> Bool {
-        return true
+        return false
     }
     
     func emptyDataSetShouldAllowScroll(_ scrollView: UIScrollView) -> Bool {
@@ -118,18 +118,19 @@ class OriginalUsageViewController: UITableViewController, EmptyDataSetSource, Em
     }
     
     func emptyDataSetShouldAnimateImageView(_ scrollView: UIScrollView) -> Bool {
-        return isLoading
+        return false
+        //return isLoading
     }
     
     func emptyDataSet(_ scrollView: UIScrollView, didTapView view: UIView) {
-        isLoading = true
+        isLoading = false
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) {
             self.isLoading = false
         }
     }
     
     func emptyDataSet(_ scrollView: UIScrollView, didTapButton button: UIButton) {
-        isLoading = true
+        isLoading = false
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) {
             self.isLoading = false
         }
@@ -560,7 +561,7 @@ struct Configuration {
         switch app  {
         case "Kickstarter":
             var offset = UIApplication.shared.statusBarFrame.height
-            offset += (controller.navigationController?.navigationBar.frame.height)!
+            offset += (controller.navigationController?.navigationBar.frame.height) ?? 0.0
             return -offset
         case "Twitter":
             return -(CGFloat)(roundf(Float(controller.tableView.frame.height/2.5)))
