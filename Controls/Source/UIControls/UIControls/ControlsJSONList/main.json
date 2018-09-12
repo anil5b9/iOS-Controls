@@ -14,15 +14,23 @@
            "data" : [
                      {
                      "Title" : "CircularSliderVC",
-                     "ScreenName":  "CircularSliderVc"
+                     "ScreenName":  "CircularSliderExampleVc"
                      },
                      {
                      "Title" : "RangeCircularSlider",
-                     "ScreenName":  "RangeCircularSliderVc"
+                     "ScreenName":  "ClockProgressBarVc"
+                     },
+                     {
+                     "Title" : "PlayerCircularSlider",
+                     "ScreenName":  "PlayerCircularProgressVc"
+                     },
+                     {
+                     "Title" : "OClockCircularSlider",
+                     "ScreenName":  "OClockProgressBarVc"
                      },
                      {
                      "Title" : "MidPointCircularSlider",
-                     "ScreenName":  "MidPointCircularSliderVc"
+                     "ScreenName":  "ExampleCircularSliderVc"
                      }
                      ]
            }

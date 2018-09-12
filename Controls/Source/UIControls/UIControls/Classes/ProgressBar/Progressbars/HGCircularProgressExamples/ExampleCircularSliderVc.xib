@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExampleCircularSliderVc" customModule="UIControls" customModuleProvider="target">
+            <connections>
+                <outlet property="circularSlider" destination="plc-f0-Eiu" id="S4Z-oM-pdy"/>
+                <outlet property="view" destination="ybm-0W-kDJ" id="Blt-Wv-cwy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ybm-0W-kDJ">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="plc-f0-Eiu" customClass="MidPointCircularSlider" customModule="HGCircularSlider">
+                    <rect key="frame" x="73.5" y="195" width="228" height="228"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="plc-f0-Eiu" secondAttribute="height" id="Rx8-Tb-eAv"/>
+                        <constraint firstAttribute="width" constant="228" id="Try-tL-GKf"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="trackFillColor">
+                            <color key="value" red="0.92156862750000001" green="0.1843137255" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
+                            <color key="value" red="0.35686274509999999" green="0.70196078429999997" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="distance">
+                            <real key="value" value="0.14999999999999999"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="diskColor">
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="midThumbStrokeHighlightedColor">
+                            <color key="value" red="0.92156862750000001" green="0.1843137255" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="midThumbStrokeColor">
+                            <color key="value" red="0.35686274509999999" green="0.70196078429999997" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="thumbRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="diskFillColor">
+                            <color key="value" red="0.35686274509999999" green="0.70196078429999997" blue="0.92549019610000005" alpha="0.13957435339999999" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="April" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jiH-cT-GdS">
+                    <rect key="frame" x="112.5" y="234" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="ejL-ze-612"/>
+                        <constraint firstAttribute="width" secondItem="jiH-cT-GdS" secondAttribute="height" id="gNy-b2-Q7Q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="75"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.3803921569" green="0.33725490200000002" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="plc-f0-Eiu" firstAttribute="centerY" secondItem="ybm-0W-kDJ" secondAttribute="centerY" id="6iF-9U-eOe"/>
+                <constraint firstItem="jiH-cT-GdS" firstAttribute="centerX" secondItem="ybm-0W-kDJ" secondAttribute="centerX" id="baE-DO-6QX"/>
+                <constraint firstItem="jiH-cT-GdS" firstAttribute="centerY" secondItem="ybm-0W-kDJ" secondAttribute="centerY" id="gyr-iI-EoO"/>
+                <constraint firstItem="plc-f0-Eiu" firstAttribute="centerX" secondItem="ybm-0W-kDJ" secondAttribute="centerX" id="ocL-6K-6tA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="5GW-od-O8d"/>
+        </view>
+    </objects>
+</document>
