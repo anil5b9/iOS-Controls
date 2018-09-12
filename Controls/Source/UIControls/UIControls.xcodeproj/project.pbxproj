@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1CB6443F5E3A06347A65C361 /* Pods_UIControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BEC1FD32DD8B7870AA2E84 /* Pods_UIControls.framework */; };
+		520916E42148E761005C4F4A /* OClockProgressBarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520916E22148E761005C4F4A /* OClockProgressBarVc.swift */; };
+		520916E52148E761005C4F4A /* OClockProgressBarVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520916E32148E761005C4F4A /* OClockProgressBarVc.xib */; };
+		520916E82148E8D0005C4F4A /* ExampleCircularSliderVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520916E62148E8D0005C4F4A /* ExampleCircularSliderVc.swift */; };
+		520916E92148E8D0005C4F4A /* ExampleCircularSliderVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520916E72148E8D0005C4F4A /* ExampleCircularSliderVc.xib */; };
 		520B50A721412D0600F611C2 /* EmptyDataSetVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B50A521412D0600F611C2 /* EmptyDataSetVc.swift */; };
 		520B50A821412D0600F611C2 /* EmptyDataSetVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520B50A621412D0600F611C2 /* EmptyDataSetVc.xib */; };
 		520B50AC21412F9400F611C2 /* OriginalUsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520B50AA21412F9400F611C2 /* OriginalUsageViewController.swift */; };
@@ -16,6 +20,13 @@
 		52147F05213E66C50097C27B /* PullToMakeSoupVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52147F03213E66C50097C27B /* PullToMakeSoupVc.swift */; };
 		52147F06213E66C50097C27B /* PullToMakeSoupVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52147F04213E66C50097C27B /* PullToMakeSoupVc.xib */; };
 		522AF18E214806CE00C81881 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 522AF18D214806CD00C81881 /* countries.json */; };
+		5241E73A2148DFE800607099 /* CircularSliderExampleVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241E7382148DFE800607099 /* CircularSliderExampleVc.swift */; };
+		5241E73B2148DFE800607099 /* CircularSliderExampleVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5241E7392148DFE800607099 /* CircularSliderExampleVc.xib */; };
+		5241E73E2148E1B400607099 /* ClockProgressBarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241E73C2148E1B400607099 /* ClockProgressBarVc.swift */; };
+		5241E73F2148E1B400607099 /* ClockProgressBarVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5241E73D2148E1B400607099 /* ClockProgressBarVc.xib */; };
+		5241E7422148E33A00607099 /* PlayerCircularProgressVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241E7402148E33A00607099 /* PlayerCircularProgressVc.swift */; };
+		5241E7432148E33A00607099 /* PlayerCircularProgressVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5241E7412148E33A00607099 /* PlayerCircularProgressVc.xib */; };
+		5241E7452148E56800607099 /* StrangeZero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5241E7442148E56800607099 /* StrangeZero.mp3 */; };
 		52A040FA213FC23400FAD96B /* TabScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A040F8213FC23400FAD96B /* TabScreenOne.swift */; };
 		52A040FB213FC23400FAD96B /* TabScreenOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A040F9213FC23400FAD96B /* TabScreenOne.xib */; };
 		52A0410E2140091C00FAD96B /* PullToBounnceVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0410C2140091C00FAD96B /* PullToBounnceVc.swift */; };
@@ -34,14 +45,6 @@
 		52C089762136846300D915E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C089742136846300D915E5 /* LaunchScreen.storyboard */; };
 		52C089802136859000D915E5 /* MainListVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C0897E2136859000D915E5 /* MainListVc.swift */; };
 		52C089812136859000D915E5 /* MainListVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C0897F2136859000D915E5 /* MainListVc.xib */; };
-		52C089972136960200D915E5 /* CircularSliderVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C089952136960200D915E5 /* CircularSliderVc.swift */; };
-		52C089982136960200D915E5 /* CircularSliderVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C089962136960200D915E5 /* CircularSliderVc.xib */; };
-		52C0899B2136995500D915E5 /* MidPointCircularSliderVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C089992136995500D915E5 /* MidPointCircularSliderVc.swift */; };
-		52C0899C2136995500D915E5 /* MidPointCircularSliderVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C0899A2136995500D915E5 /* MidPointCircularSliderVc.xib */; };
-		52C0899F21369BBE00D915E5 /* RangeCircularSliderVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C0899D21369BBE00D915E5 /* RangeCircularSliderVc.swift */; };
-		52C089A021369BBE00D915E5 /* RangeCircularSliderVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C0899E21369BBE00D915E5 /* RangeCircularSliderVc.xib */; };
-		52C089A321369D6A00D915E5 /* HGCircularSliderVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C089A121369D6A00D915E5 /* HGCircularSliderVc.swift */; };
-		52C089A421369D6A00D915E5 /* HGCircularSliderVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C089A221369D6A00D915E5 /* HGCircularSliderVc.xib */; };
 		52C089A721369EBC00D915E5 /* KDCircularProgressVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C089A521369EBC00D915E5 /* KDCircularProgressVc.swift */; };
 		52C089A821369EBC00D915E5 /* KDCircularProgressVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C089A621369EBC00D915E5 /* KDCircularProgressVc.xib */; };
 		52C089B12136A15D00D915E5 /* SSSpinnerButtonVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C089AF2136A15D00D915E5 /* SSSpinnerButtonVc.swift */; };
@@ -76,6 +79,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		520916E22148E761005C4F4A /* OClockProgressBarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OClockProgressBarVc.swift; sourceTree = "<group>"; };
+		520916E32148E761005C4F4A /* OClockProgressBarVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OClockProgressBarVc.xib; sourceTree = "<group>"; };
+		520916E62148E8D0005C4F4A /* ExampleCircularSliderVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCircularSliderVc.swift; sourceTree = "<group>"; };
+		520916E72148E8D0005C4F4A /* ExampleCircularSliderVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleCircularSliderVc.xib; sourceTree = "<group>"; };
 		520B50A521412D0600F611C2 /* EmptyDataSetVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataSetVc.swift; sourceTree = "<group>"; };
 		520B50A621412D0600F611C2 /* EmptyDataSetVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyDataSetVc.xib; sourceTree = "<group>"; };
 		520B50AA21412F9400F611C2 /* OriginalUsageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalUsageViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +91,13 @@
 		52147F03213E66C50097C27B /* PullToMakeSoupVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToMakeSoupVc.swift; sourceTree = "<group>"; };
 		52147F04213E66C50097C27B /* PullToMakeSoupVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PullToMakeSoupVc.xib; sourceTree = "<group>"; };
 		522AF18D214806CD00C81881 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		5241E7382148DFE800607099 /* CircularSliderExampleVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularSliderExampleVc.swift; sourceTree = "<group>"; };
+		5241E7392148DFE800607099 /* CircularSliderExampleVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircularSliderExampleVc.xib; sourceTree = "<group>"; };
+		5241E73C2148E1B400607099 /* ClockProgressBarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockProgressBarVc.swift; sourceTree = "<group>"; };
+		5241E73D2148E1B400607099 /* ClockProgressBarVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClockProgressBarVc.xib; sourceTree = "<group>"; };
+		5241E7402148E33A00607099 /* PlayerCircularProgressVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCircularProgressVc.swift; sourceTree = "<group>"; };
+		5241E7412148E33A00607099 /* PlayerCircularProgressVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerCircularProgressVc.xib; sourceTree = "<group>"; };
+		5241E7442148E56800607099 /* StrangeZero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StrangeZero.mp3; sourceTree = "<group>"; };
 		52A040F8213FC23400FAD96B /* TabScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreenOne.swift; sourceTree = "<group>"; };
 		52A040F9213FC23400FAD96B /* TabScreenOne.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabScreenOne.xib; sourceTree = "<group>"; };
 		52A0410C2140091C00FAD96B /* PullToBounnceVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToBounnceVc.swift; sourceTree = "<group>"; };
@@ -104,14 +118,6 @@
 		52C089772136846300D915E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52C0897E2136859000D915E5 /* MainListVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListVc.swift; sourceTree = "<group>"; };
 		52C0897F2136859000D915E5 /* MainListVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainListVc.xib; sourceTree = "<group>"; };
-		52C089952136960200D915E5 /* CircularSliderVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularSliderVc.swift; sourceTree = "<group>"; };
-		52C089962136960200D915E5 /* CircularSliderVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircularSliderVc.xib; sourceTree = "<group>"; };
-		52C089992136995500D915E5 /* MidPointCircularSliderVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidPointCircularSliderVc.swift; sourceTree = "<group>"; };
-		52C0899A2136995500D915E5 /* MidPointCircularSliderVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MidPointCircularSliderVc.xib; sourceTree = "<group>"; };
-		52C0899D21369BBE00D915E5 /* RangeCircularSliderVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeCircularSliderVc.swift; sourceTree = "<group>"; };
-		52C0899E21369BBE00D915E5 /* RangeCircularSliderVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RangeCircularSliderVc.xib; sourceTree = "<group>"; };
-		52C089A121369D6A00D915E5 /* HGCircularSliderVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGCircularSliderVc.swift; sourceTree = "<group>"; };
-		52C089A221369D6A00D915E5 /* HGCircularSliderVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HGCircularSliderVc.xib; sourceTree = "<group>"; };
 		52C089A521369EBC00D915E5 /* KDCircularProgressVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDCircularProgressVc.swift; sourceTree = "<group>"; };
 		52C089A621369EBC00D915E5 /* KDCircularProgressVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDCircularProgressVc.xib; sourceTree = "<group>"; };
 		52C089AF2136A15D00D915E5 /* SSSpinnerButtonVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSSpinnerButtonVc.swift; sourceTree = "<group>"; };
@@ -186,6 +192,24 @@
 				52147F04213E66C50097C27B /* PullToMakeSoupVc.xib */,
 			);
 			path = PullToMakeSoup;
+			sourceTree = "<group>";
+		};
+		5241E7332148DEFE00607099 /* HGCircularProgressExamples */ = {
+			isa = PBXGroup;
+			children = (
+				5241E7442148E56800607099 /* StrangeZero.mp3 */,
+				5241E7382148DFE800607099 /* CircularSliderExampleVc.swift */,
+				5241E7392148DFE800607099 /* CircularSliderExampleVc.xib */,
+				5241E73C2148E1B400607099 /* ClockProgressBarVc.swift */,
+				5241E73D2148E1B400607099 /* ClockProgressBarVc.xib */,
+				5241E7402148E33A00607099 /* PlayerCircularProgressVc.swift */,
+				5241E7412148E33A00607099 /* PlayerCircularProgressVc.xib */,
+				520916E22148E761005C4F4A /* OClockProgressBarVc.swift */,
+				520916E32148E761005C4F4A /* OClockProgressBarVc.xib */,
+				520916E62148E8D0005C4F4A /* ExampleCircularSliderVc.swift */,
+				520916E72148E8D0005C4F4A /* ExampleCircularSliderVc.xib */,
+			);
+			path = HGCircularProgressExamples;
 			sourceTree = "<group>";
 		};
 		52A040FD2140090A00FAD96B /* PullToBounnce */ = {
@@ -267,16 +291,9 @@
 		52C08994213695D800D915E5 /* Progressbars */ = {
 			isa = PBXGroup;
 			children = (
-				52C089952136960200D915E5 /* CircularSliderVc.swift */,
+				5241E7332148DEFE00607099 /* HGCircularProgressExamples */,
 				52C089A521369EBC00D915E5 /* KDCircularProgressVc.swift */,
 				52C089A621369EBC00D915E5 /* KDCircularProgressVc.xib */,
-				52C089962136960200D915E5 /* CircularSliderVc.xib */,
-				52C089992136995500D915E5 /* MidPointCircularSliderVc.swift */,
-				52C0899A2136995500D915E5 /* MidPointCircularSliderVc.xib */,
-				52C0899D21369BBE00D915E5 /* RangeCircularSliderVc.swift */,
-				52C0899E21369BBE00D915E5 /* RangeCircularSliderVc.xib */,
-				52C089A121369D6A00D915E5 /* HGCircularSliderVc.swift */,
-				52C089A221369D6A00D915E5 /* HGCircularSliderVc.xib */,
 			);
 			path = Progressbars;
 			sourceTree = "<group>";
@@ -454,16 +471,17 @@
 				52A4FA0D2136ED78000BC265 /* CalendarLayoutsDemonstrationVc.xib in Resources */,
 				52C089E12136D10F00D915E5 /* CollectionViewCel.xib in Resources */,
 				520B50AE214131DC00F611C2 /* applications.json in Resources */,
+				520916E92148E8D0005C4F4A /* ExampleCircularSliderVc.xib in Resources */,
+				5241E73B2148DFE800607099 /* CircularSliderExampleVc.xib in Resources */,
 				52C089EF2136D5A300D915E5 /* Nunito-Light.ttf in Resources */,
-				52C089A021369BBE00D915E5 /* RangeCircularSliderVc.xib in Resources */,
 				52C089762136846300D915E5 /* LaunchScreen.storyboard in Resources */,
 				52C089F12136D5A300D915E5 /* OpenSans-Regular.ttf in Resources */,
 				520B50A821412D0600F611C2 /* EmptyDataSetVc.xib in Resources */,
 				52C089E62136D3D200D915E5 /* PaperOnboardingVc.xib in Resources */,
-				52C0899C2136995500D915E5 /* MidPointCircularSliderVc.xib in Resources */,
 				52A4FA092136ED78000BC265 /* PinkSectionHeaderView.xib in Resources */,
 				52C089FA2136E2C000D915E5 /* TestRangeSelectionViewControllerCell.xib in Resources */,
 				52A4FA0C2136ED78000BC265 /* WhiteSectionHeaderView.xib in Resources */,
+				5241E73F2148E1B400607099 /* ClockProgressBarVc.xib in Resources */,
 				52C089B62136A36F00D915E5 /* NVActivityIndicatorVc.xib in Resources */,
 				52A0410F2140091C00FAD96B /* PullToBounnceVc.xib in Resources */,
 				52A4FA0A2136ED78000BC265 /* ResizingOrientaionVc.xib in Resources */,
@@ -474,15 +492,16 @@
 				52147F06213E66C50097C27B /* PullToMakeSoupVc.xib in Resources */,
 				52A040FB213FC23400FAD96B /* TabScreenOne.xib in Resources */,
 				52C089B22136A15D00D915E5 /* SSSpinnerButtonVc.xib in Resources */,
+				5241E7452148E56800607099 /* StrangeZero.mp3 in Resources */,
 				52C089D02136C4EA00D915E5 /* CellView.xib in Resources */,
 				52C089D92136CCBB00D915E5 /* FaceAwareVc.xib in Resources */,
-				52C089A421369D6A00D915E5 /* HGCircularSliderVc.xib in Resources */,
 				52C089732136846300D915E5 /* Assets.xcassets in Resources */,
 				52C089812136859000D915E5 /* MainListVc.xib in Resources */,
 				52C089A821369EBC00D915E5 /* KDCircularProgressVc.xib in Resources */,
 				52C089F62136E20E00D915E5 /* RangeSelectionVc.xib in Resources */,
-				52C089982136960200D915E5 /* CircularSliderVc.xib in Resources */,
+				5241E7432148E33A00607099 /* PlayerCircularProgressVc.xib in Resources */,
 				522AF18E214806CE00C81881 /* countries.json in Resources */,
+				520916E52148E761005C4F4A /* OClockProgressBarVc.xib in Resources */,
 				52C089CC2136C35D00D915E5 /* PersianCalendarVc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,32 +578,33 @@
 			files = (
 				52C089DC2136CFB100D915E5 /* KingFisherVc.swift in Sources */,
 				52C089E02136D10F00D915E5 /* CollectionViewCel.swift in Sources */,
+				520916E42148E761005C4F4A /* OClockProgressBarVc.swift in Sources */,
+				5241E73E2148E1B400607099 /* ClockProgressBarVc.swift in Sources */,
 				52A4FA0E2136ED78000BC265 /* CalendarLayoutsDemonstrationVc.swift in Sources */,
 				52C089B12136A15D00D915E5 /* SSSpinnerButtonVc.swift in Sources */,
 				52C089F52136E20E00D915E5 /* RangeSelectionVc.swift in Sources */,
-				52C0899B2136995500D915E5 /* MidPointCircularSliderVc.swift in Sources */,
+				5241E73A2148DFE800607099 /* CircularSliderExampleVc.swift in Sources */,
 				52C089CB2136C35D00D915E5 /* PersianCalendarVc.swift in Sources */,
 				52A0410E2140091C00FAD96B /* PullToBounnceVc.swift in Sources */,
 				52147F05213E66C50097C27B /* PullToMakeSoupVc.swift in Sources */,
 				520B50A721412D0600F611C2 /* EmptyDataSetVc.swift in Sources */,
 				52A4FA0F2136ED78000BC265 /* ResizingOrientaionVc.swift in Sources */,
-				52C089A321369D6A00D915E5 /* HGCircularSliderVc.swift in Sources */,
 				52C089B52136A36F00D915E5 /* NVActivityIndicatorVc.swift in Sources */,
 				52C089D82136CCBB00D915E5 /* FaceAwareVc.swift in Sources */,
 				52C0896C2136846300D915E5 /* AppDelegate.swift in Sources */,
-				52C089972136960200D915E5 /* CircularSliderVc.swift in Sources */,
 				52A4FA082136ED78000BC265 /* PinkSectionHeaderView.swift in Sources */,
 				52C089E52136D3D200D915E5 /* PaperOnboardingVc.swift in Sources */,
 				520B50B021413C8000F611C2 /* TestViewController.swift in Sources */,
 				52C089F22136D5A300D915E5 /* Images.swift in Sources */,
 				52A4FA0B2136ED78000BC265 /* WhiteSectionHeaderView.swift in Sources */,
-				52C0899F21369BBE00D915E5 /* RangeCircularSliderVc.swift in Sources */,
 				52C089C02136B63200D915E5 /* AnimatedTabbarVc.swift in Sources */,
 				52C089CF2136C4EA00D915E5 /* CellView.swift in Sources */,
+				520916E82148E8D0005C4F4A /* ExampleCircularSliderVc.swift in Sources */,
 				52C089802136859000D915E5 /* MainListVc.swift in Sources */,
 				52A4F9FF2136E9FA000BC265 /* CodeCellView.swift in Sources */,
 				520B50AC21412F9400F611C2 /* OriginalUsageViewController.swift in Sources */,
 				52C089A721369EBC00D915E5 /* KDCircularProgressVc.swift in Sources */,
+				5241E7422148E33A00607099 /* PlayerCircularProgressVc.swift in Sources */,
 				52C089F92136E2C000D915E5 /* TestRangeSelectionViewControllerCell.swift in Sources */,
 				52A040FA213FC23400FAD96B /* TabScreenOne.swift in Sources */,
 			);
